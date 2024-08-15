@@ -55,7 +55,7 @@
                         <td>{{ $val->name }}</td>
                         <td>{{ $val->email }}</td>
                         <td>{{ $val->created_at }}</td>
-                        <td><a href="/contacts/{{ $val->id }}"><button class="btn btn-secondary">Show</button></a></td>
+                        <td><a href="/contacts/{{ $val->id }}/show"><button class="btn btn-secondary">Show</button></a></td>
                         <td><a href="/contacts/{{ $val->id }}/edit"><button class="btn btn-success">Update</button></a>
                         </td>
                         <td>
